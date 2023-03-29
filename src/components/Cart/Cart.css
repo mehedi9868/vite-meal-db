@@ -1,0 +1,14 @@
+.cart {
+    position: sticky;
+    top: 50px;
+}
+
+.cart-title {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.added-items {
+    padding-left: 50px;
+
+}

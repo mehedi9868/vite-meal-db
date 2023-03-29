@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SingleMeal from '../SingleMeal/SingleMeal';
 import './Meals.css';
 
-const Meals = () => {
+const Meals = ({ handleCart }) => {
     const [meals, setMeals] = useState([])
     useEffect(() => {
         const LoadMeals = async () => {
@@ -12,13 +12,14 @@ const Meals = () => {
         }
         LoadMeals()
     }, []);
-    console.log(meals);
+
     return (
         <div className='meals-container'>
             {
                 meals.map((meal) => <SingleMeal
                     key={meal.idMeal}
                     meal={meal}
+                    handleCart={handleCart}
                 ></SingleMeal>)
             }
 

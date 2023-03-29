@@ -12,10 +12,6 @@
     border-radius: 8px;
 }
 
-.single-meal-container div {
-    padding: 50px;
-}
-
 .btn-add {
     width: 75%;
     background-color: #87ceeb;
@@ -25,4 +21,6 @@
     font-size: 16px;
     position: absolute;
     bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
 }
