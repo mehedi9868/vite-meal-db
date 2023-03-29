@@ -1,6 +1,6 @@
 .single-meal-container {
-    width: auto;
-    height: 600px;
+    width: 100%;
+    height: 620px;
     border: 1px solid #808080;
     border-radius: 8px;
     padding: 8px;
