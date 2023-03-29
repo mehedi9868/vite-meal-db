@@ -9,11 +9,12 @@
 
 .single-meal-container img {
     width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
 .btn-add {
-    width: 75%;
+    width: 90%;
     background-color: #87ceeb;
     border: none;
     border-radius: 8px;

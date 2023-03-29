@@ -6,7 +6,7 @@ const Meals = ({ handleCart }) => {
     const [meals, setMeals] = useState([])
     useEffect(() => {
         const LoadMeals = async () => {
-            const res = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=a');
+            const res = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=b');
             const data = await res.json();
             setMeals(data.meals);
         }
